@@ -589,7 +589,8 @@ function checkTerminalDirectives (el, options) {
   for (var i = 0, l = terminalDirectives.length; i < l; i++) {
     dirName = terminalDirectives[i]
     /* eslint-disable no-cond-assign */
-    if (value = el.getAttribute('v-' + dirName)) {
+    if (el.hasAttribute('v-' + dirName)) {
+      value = el.getAttribute('v-' + dirName)
       return makeTerminalNodeLinkFn(el, dirName, value, options)
     }
     /* eslint-enable no-cond-assign */
