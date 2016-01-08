@@ -4,6 +4,7 @@ import html from './html'
 // logic control
 import vFor from './for'
 import vIf from './if'
+import inject from './inject'
 import show from './show'
 // two-way binding
 import model from './model/index'
@@ -23,6 +24,7 @@ export default {
   html,
   'for': vFor,
   'if': vIf,
+  inject,
   show,
   model,
   on,

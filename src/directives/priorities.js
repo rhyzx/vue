@@ -8,3 +8,4 @@ export const PARTIAL = 1750
 export const SLOT = 1750
 export const FOR = 2000
 export const IF = 2000
+export const INJECT = 2000

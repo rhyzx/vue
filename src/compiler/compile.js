@@ -29,7 +29,8 @@ const transitionRE = /^(v-bind:|:)?transition$/
 // terminal directives
 const terminalDirectives = [
   'for',
-  'if'
+  'if',
+  'inject'
 ]
 
 // default directive priority
